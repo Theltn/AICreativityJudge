@@ -1,0 +1,34 @@
+﻿Project Title
+Automated Creative Writing Evaluation
+Team Members
+Steven Weil, David Pope, Theo Helton
+1. Problem Description and Motivation
+Problem Statement
+
+We are attempting to address the problem of identifying which of the modern LLMs are the best at creative writing. As artificial intelligence continues to improve, it has become apparent that LLMs are not effective at creative writing. Our goal is to create a neural network that receives a piece of fiction writing as input and outputs a “human score.” Being able to grade LLMs is becoming a critical part of many industries especially in fields such as computer science and data analysis. However, we feel that being able to match human creativity is an essential capability and one that we feel is significantly lacking in current LLM technology. The ability to mimic human writing is going to be essential as AI continues to help write emails, narrate stories, and document our world. 
+2. Background and Related Work
+
+This is a regression problem that deals with identifying how creative a piece of LLM writing is. 
+4. Initial Project Plan
+Major Steps
+1. Data collection / dataset selection
+2. Data cleaning and preprocessing
+3. Exploratory data analysis
+4. Model selection
+5. Model training
+6. Model evaluation
+7. Final analysis and reporting
+Timeline
+Feb 15th: Turn in Project Proposal
+March 6th: Turn in abstract for NKU Celebration of Student Research
+March 16th: Finalize data collection and preprocessing
+April 6th: Fully developed and trained model
+April 23rd: Be ready to present finished project at Celebration of Student Research
+April 27th: Finalize in-class presentation
+Team Member Responsibilities
+Steven Weil => Data and Persona Engineer: Data collection and preprocessing/cleaning, also preparing presentations and helping distribute tasks. 
+Theo Helton => Model Architect:  Building out the model and working on the backend code that helps our network run effectively. 
+David Pope => Interface and UI Developer: Creating / developing the system that will output the model's score and effectively show our evaluation results. 
+5. Communication Strategy
+
+Our main communication strategy will be email and in person meetings on Wednesday nights in griffin hall. These in person meetings especially will be helpful in keeping us on track and moving towards our end goal of a working neural network.

@@ -1,0 +1,22 @@
+Milestone two (20%): Data Collection and Preprocessing
+Goal: Understand your dataset and prepare it for deep learning models. 
+Tasks:
+Identify and collect your dataset
+Explore and understand the data:
+Size, features, labels
+Missing values or imbalance
+Clean and preprocess the data
+Perform basic data analysis and visualization
+Create a simple workflow or prototype for your project
+
+
+Deliverable:
+Project Draft #1 (minimum 1 page, PDF)
+Uploaded to Canvas by one group member
+Must include:
+Names of group members
+Project motivation and goal
+Project workflow / framework
+Dataset description and analysis
+Preprocessing steps
+Key references (datasets, papers, code)

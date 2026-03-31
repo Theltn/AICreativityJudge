@@ -1,0 +1,11 @@
+pandas
+jupyter
+matplotlib
+seaborn
+datasets
+huggingface_hub
+spacy
+nltk
+vaderSentiment
+pyarrow
+fastparquet
