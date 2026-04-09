@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=JetBrains+Mono:wght@400;700&display=swap');
+
+:root {
+  --bg: #030806;
+  --surface: #051410;
+  --surface-alt: #0a241c;
+  --border: #133b2e;
+  --text: #e0f2ec;
+  --text-muted: #5e8f7a;
+  
+  --accent-green: #00ffa3;
+  --accent-dark-green: #00b372;
+  --accent-cyan: #00e5ff;
+  --accent-red: #ff2a5f;
+  
+  --font-sans: 'Space Grotesk', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Technical Blueprint Grid Background */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: 
+    linear-gradient(var(--border) 1px, transparent 1px),
+    linear-gradient(90deg, var(--border) 1px, transparent 1px);
+  background-size: 50px 50px;
+  z-index: -1;
+  opacity: 0.25;
+}
+
+/* Architecture / Brutalist Utility Classes */
+.neo-panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  position: relative;
+}
+
+.neo-panel::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  border: 1px solid rgba(255,255,255,0.02);
+  pointer-events: none;
+}
+
+.neo-header {
+  border-bottom: 1px solid var(--border);
+  padding: 1rem 1.5rem;
+  background: var(--surface-alt);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header.app-header {
+  border-bottom: 1px solid var(--border);
+  background: var(--bg);
+  padding: 1.5rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-title {
+  font-weight: 700;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.app-title-badge {
+  background: var(--accent-green);
+  color: var(--bg);
+  padding: 2px 8px;
+  font-size: 0.75rem;
+  font-family: var(--font-mono);
+  font-weight: 700;
+}
+
+/* Typography elements */
+.mono-text {
+  font-family: var(--font-mono);
+}
+
+.text-accent {
+  color: var(--accent-green);
+}
+
+.text-cyan {
+  color: var(--accent-cyan);
+}
+
+/* Main Layout */
+.layout-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  padding: 2rem 3rem;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+  .layout-grid {
+    grid-template-columns: 1fr 1fr;
+    height: calc(100vh - 80px);
+    overflow: hidden;
+  }
+}
+
+/* Editor */
+.editor-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.neo-textarea {
+  flex-grow: 1;
+  background: transparent;
+  border: none;
+  padding: 1.5rem;
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 1.1rem;
+  line-height: 1.6;
+  resize: none;
+  outline: none;
+  width: 100%;
+  min-height: 300px;
+}
+
+.neo-textarea::placeholder {
+  color: var(--border);
+}
+
+.editor-footer {
+  border-top: 1px solid var(--border);
+  padding: 1rem 1.5rem;
+  background: var(--surface-alt);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Button */
+.neo-btn {
+  background: transparent;
+  color: var(--accent-green);
+  font-family: var(--font-mono);
+  border: 1px solid var(--accent-green);
+  padding: 0.75rem 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.neo-btn:hover:not(:disabled) {
+  background: var(--accent-green);
+  color: var(--bg);
+}
+
+.neo-btn:disabled {
+  border-color: var(--border);
+  color: var(--text-muted);
+  cursor: not-allowed;
+}
+
+/* Data Output Section */
+.metrics-scroll {
+  overflow-y: auto;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  height: calc(100% - 60px);
+}
+
+.metric-block {
+  border: 1px solid var(--border);
+  padding: 1.25rem;
+  background: var(--bg);
+  position: relative;
+}
+
+.metric-block::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; width: 4px; height: 100%;
+  background: var(--border);
+}
+
+.metric-block.active::before {
+  background: var(--accent-cyan);
+}
+
+.metric-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 1rem;
+}
+
+.metric-title {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-muted);
+}
+
+.metric-score-display {
+  font-family: var(--font-mono);
+  font-size: 2rem;
+  line-height: 1;
+}
+
+/* Structural Progress Bar */
+.structural-bar {
+  width: 100%;
+  height: 8px;
+  background: var(--surface-alt);
+  position: relative;
+  overflow: hidden;
+  border-top: 1px solid var(--bg);
+  border-bottom: 1px solid var(--bg);
+}
+
+.structural-fill {
+  height: 100%;
+  background: var(--accent-cyan);
+  transition: width 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.structural-fill.green {
+  background: var(--accent-green);
+}
+
+.verdict-banner {
+  margin-top: auto;
+  padding: 1.5rem;
+  border: 1px solid var(--accent-green);
+  background: rgba(0, 255, 163, 0.05);
+}
+
+.verdict-banner.ai {
+  border-color: var(--accent-red);
+  background: rgba(255, 42, 95, 0.05);
+}
+
+.verdict-banner.neutral {
+  border-color: var(--border);
+  background: transparent;
+}
+
+/* Animations */
+.spin {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  100% { transform: rotate(360deg); }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+  border-left: 1px solid var(--border);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}

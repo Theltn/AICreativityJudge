@@ -1,11 +1,25 @@
+# Core
 pandas
-jupyter
-matplotlib
-seaborn
-datasets
-huggingface_hub
+numpy
+pyarrow
+fastparquet
+
+# NLP / Scoring
 spacy
 nltk
 vaderSentiment
-pyarrow
-fastparquet
+
+# Deep Learning
+torch
+transformers
+scikit-learn
+accelerate
+
+# Visualization
+matplotlib
+seaborn
+jupyter
+
+# Data
+datasets
+huggingface_hub
