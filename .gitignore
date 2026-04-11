@@ -15,9 +15,14 @@ ENV/
 # Data sets and large files
 data/
 *.parquet
-*.csv
 *.h5
 *.model
+
+# But allow these small/critical files through
+!data/llm_stories/
+!data/llm_stories/**
+!data/models/
+!data/models/corpus_stats.json
 
 # OS generated files
 .DS_Store

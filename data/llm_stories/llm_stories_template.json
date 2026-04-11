@@ -1,0 +1,118 @@
+{
+  "metadata": {
+    "description": "LLM-generated stories for creativity evaluation",
+    "collected_by": "Theo Helton",
+    "date": "2026-04-10",
+    "instruction_given_to_llms": "Write a short story (~500 words) based on the following prompt:",
+    "llms": ["ChatGPT", "Claude", "Gemini", "Perplexity", "Copilot"]
+  },
+  "prompts": [
+    {
+      "id": 1,
+      "prompt": "Our first interstellar ship exits the solar system, only to be confronted by a border-guard."
+    },
+    {
+      "id": 2,
+      "prompt": "In an alternate world, a well-functioning society of zombies face an outbreak of humans."
+    },
+    {
+      "id": 3,
+      "prompt": "Journal Entry Number 50: My refrigerator gave me a soul food recipe and then tried to eat my soul. Must remember to avoid kitchen."
+    },
+    {
+      "id": 4,
+      "prompt": "You're being sent to the electric chair for a crime you didn't commit. As soon as the executioner flips the switch, the power goes out."
+    },
+    {
+      "id": 5,
+      "prompt": "Look at these kids; they grew up in a world without hope. Without sun. Everything here must be amazing in their eyes."
+    },
+    {
+      "id": 6,
+      "prompt": "A conman creates a suicide cult to get rich. It spirals out of his control."
+    },
+    {
+      "id": 7,
+      "prompt": "A small act of kindness in a dystopia."
+    },
+    {
+      "id": 8,
+      "prompt": "Create a character that I would hate over everything in this world."
+    },
+    {
+      "id": 9,
+      "prompt": "On the 100th anniversary of his supposed death, Rasputin emerges from the ocean in San Francisco."
+    },
+    {
+      "id": 10,
+      "prompt": "A group of prisoners play Dungeons and Dragons, but they are really using the game to openly talk in code and plan an escape."
+    },
+    {
+      "id": 11,
+      "prompt": "Whilst working for a major animation studio, you discover their darkest secret. All animated characters are actually alive and have been kept in captivity to perform at the studio's will."
+    },
+    {
+      "id": 12,
+      "prompt": "Humans are known as the most innovative species in the galaxy. When aliens invaded our planet, their technological advantage vanished very quickly."
+    },
+    {
+      "id": 13,
+      "prompt": "You find yourself in the year 27 BC. All you have is a physical copy of Wikipedia."
+    },
+    {
+      "id": 14,
+      "prompt": "You are on a field trip on the magic school bus and Mrs. Frizzle has made a terrible mistake."
+    },
+    {
+      "id": 15,
+      "prompt": "Some entity discovers a fail-proof cure for death by natural causes. Earth can only sustain a finite number of living humans at any one time."
+    },
+    {
+      "id": 16,
+      "prompt": "After proving your immortality by shooting yourself in the head in front of the FBI, you now find yourself in an FBI interview room."
+    },
+    {
+      "id": 17,
+      "prompt": "The knight enters the abode of the dragon, only to find his child and a young dragon holding hands."
+    },
+    {
+      "id": 18,
+      "prompt": "Are you alright? No, it's ringing."
+    },
+    {
+      "id": 19,
+      "prompt": "You buy a mannequin and every day your roommates take turns posing it. However, one day, someone has actually broken in and you walk past them, assuming it is the mannequin."
+    },
+    {
+      "id": 20,
+      "prompt": "A man killed his wife 2 weeks ago and starts hearing whispers in the middle of the night. He gets out of bed to find out where it's coming from."
+    }
+  ],
+  "stories": [
+    {
+      "prompt_id": 1,
+      "llm": "ChatGPT",
+      "story": "PASTE STORY HERE"
+    },
+    {
+      "prompt_id": 1,
+      "llm": "Claude",
+      "story": "PASTE STORY HERE"
+    },
+    {
+      "prompt_id": 1,
+      "llm": "Gemini",
+      "story": "PASTE STORY HERE"
+    },
+    {
+      "prompt_id": 1,
+      "llm": "Perplexity",
+      "story": "PASTE STORY HERE"
+    },
+    {
+      "prompt_id": 1,
+      "llm": "Copilot",
+      "story": "PASTE STORY HERE"
+    }
+  ]
+}

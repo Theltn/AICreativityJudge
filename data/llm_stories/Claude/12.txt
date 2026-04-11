@@ -1,0 +1,41 @@
+The Vrellian war fleet dropped out of hyperspace expecting a primitive world.
+
+Their intelligence was accurate — as of six months ago. Earth had no energy shields, no plasma weapons, no faster-than-light capability. Their most advanced military technology was GPS-guided munitions and stealth aircraft. By Vrellian standards, it was barely past the stone age.
+
+The invasion began at dawn, coordinated across twelve major cities. Vrellian drop-ships descended through the atmosphere, their adaptive camouflage flickering as they breached the cloud layer. In Beijing, a formation of six cruisers settled over the city center and broadcast the standard subjugation greeting.
+
+Within three hours, things began to go wrong.
+
+The first surprise was the drones. Not military drones — civilian ones. Within ninety minutes of first contact, humans had repurposed commercial quadcopters with improvised explosive payloads and were flying them into the intake vents of Vrellian cruisers. The vents were designed to withstand micrometeorite impacts, not swarms of consumer electronics packed with thermite.
+
+A cruiser went down over São Paulo. Its wreckage was swarmed by humans within minutes. The Vrellians expected looting. What happened was worse: the humans reverse-engineered the ship's shield modulator in four hours. A professor at the University of São Paulo livestreamed the teardown, and by nightfall, seventeen different teams across the globe had built working replicas from modified microwave transformers and car batteries.
+
+"That's not possible," Commander Vreth said, reviewing the field reports. "Shield modulation theory requires at least a Class 4 understanding of quantum field harmonics."
+
+"They don't have the theory," his analyst replied. "They just... took it apart and figured it out."
+
+This was the thing the Vrellians hadn't understood about humans. The Galactic Concordance had flagged Earth's species as "innovative," but the Vrellians had dismissed it. Every species was innovative. Innovation was building a better engine over three centuries of careful research.
+
+Humans didn't do that. Humans looked at an alien shield generator, shrugged, and said, "I bet I could make this work with a car battery." And then they did. In an afternoon.
+
+By day three, humans had adapted Vrellian power cells into portable weapons. College students were manufacturing them in dorm rooms. An open-source schematic was posted on a website called Reddit and downloaded eleven million times in two hours.
+
+By day five, someone had cracked the Vrellian communication encryption. Not a government — a fourteen-year-old in Estonia who described the encryption protocol as "basically just fancy sudoku."
+
+By day seven, the first human-built ship lifted off from a field in Kansas. It was made from a Vrellian engine strapped to the fuselage of a decommissioned Boeing 737. It was ugly. It was held together with welding seams and zip ties. It flew at twice the speed of a Vrellian interceptor because the engineer who'd built it had "optimized the fuel intake with a turbocharger from a diesel truck."
+
+Commander Vreth stared at the tactical display. Red markers — human resistance points — covered every continent. His fleet had lost thirty percent of its ships. Not to a military. To a species that had been pre-spaceflight a week ago and was now dogfighting his cruisers with converted airliners.
+
+"Retreat," he ordered.
+
+"Sir?"
+
+"Full retreat. Now."
+
+As the Vrellian fleet limped back toward the hyperspace boundary, Vreth composed his report to High Command. He stared at the blinking cursor for a long time before typing:
+
+Do not return to Earth. Recommend permanent quarantine. They learn too fast.
+
+He paused, then added:
+
+They seem to enjoy it.

@@ -1,0 +1,39 @@
+The Zykarian armada arrived with the overwhelming confidence of a species that had conquered eleven star systems using pure technological supremacy. Their dreadnoughts, sleek obsidian arrows eclipsing the sun, hung over Earth’s major cities. They possessed directed-energy weapons capable of planetary fracture and deflector shields that could withstand a barrage of tactical nukes without a flicker.
+
+They gave Earth a standard forty-eight-hour surrender window. They expected capitulation.
+
+What they got was the most horrifying display of rapid-iteration problem-solving the galaxy had ever witnessed.
+
+The Zykarians didn’t understand humanity’s core trait. To the galaxy, innovation meant methodical, multi-generational research leading to a refined, perfected technology. To humans, innovation meant duct tape, caffeine, and weaponizing sheer spite.
+
+Within the first six hours, while the Zykarians were busy transmitting terms of servitude, a group of ham-radio hobbyists in Finland realized the Zykarian communication frequency resonated perfectly with the magnetrons in commercial microwaves. They uploaded a schematic to Reddit.
+
+By hour twelve, three million modified microwaves wired to satellite dishes were pointed at the dreadnoughts. They didn’t destroy the ships, but the concentrated, chaotic spectrum noise caused the Zykarian targeting computers to experience the digital equivalent of a massive, unyielding migraine. The dreadnoughts went blind.
+
+Commander Vok of the Zykarian flagship ordered a warning strike on a mountain range to demonstrate their power. The plasma beam fired, a brilliant pillar of destructive energy. 
+
+It hit the Rockies. 
+
+But a team of physicists at MIT, alongside a group of highly motivated, illegally streaming sports fans, had analyzed the pre-firing energy buildup. They realized the plasma was magnetically confined.
+
+By hour twenty-four, human engineers weren't trying to block the plasma. That was primitive. Instead, they tapped into the global power grid and built massive, crude electromagnets out of junkyard cranes and skyscraper I-beams. 
+
+When the Zykarians fired their next warning shot at Tokyo, the beam didn't hit the city. It hit a violently distorted magnetic field, curved wildly, and effectively performed a U-turn, vaporizing the firing port of the cruiser that emitted it. 
+
+"This is impossible!" Commander Vok roared, watching the cruiser explode into debris. "Their technology level is pre-stellar! They shouldn't be able to deflect high-yield plasma!"
+
+"They aren't, Commander," his chief science officer stuttered, his four eyes wide with panic. "They're just... bending it. They are using our own weapons' physics against us by applying immense, localized distortions." 
+
+By hour thirty-six, the humans had stopped playing defense. 
+
+A teenager in South Korea had hacked a Zykarian reconnaissance drone using a modified commercial gaming controller and a brute-force script he wrote in Python. He didn't just crash it; he reverse-engineered the propulsion telemetry and uploaded it to GitHub. 
+
+By hour forty-two, human fighter jets weren't flying; they were skipping through the lower atmosphere using crude, bolted-on approximations of Zykarian anti-gravity drives, firing modified railguns that used the Zykarian's own shield frequencies to bypass their defenses. The human ships looked like garbage—literal scrap metal welded together—but they moved with erratic, terrifying speed.
+
+"They are adapting faster than our evolutionary models can compute," the science officer wailed as another dreadnought fell from the sky over Europe, swarmed by hundreds of jury-rigged interceptors. 
+
+Commander Vok looked at the tactical display. The undisputed technological masters of the galaxy were being dismantled by a species that treated the laws of physics as merely a set of aggressive suggestions. 
+
+"Call the retreat," Vok whispered, slump-shouldered. "Get us out of this system."
+
+They fled, leaving behind half their fleet and a terrifying new reality for the galactic community: Do not poke the hairless apes. They will steal your gun, figure out how it works, and shoot you with it before you can blink.
