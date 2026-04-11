@@ -15,6 +15,11 @@ transformers
 scikit-learn
 accelerate
 
+# API Server
+fastapi
+uvicorn[standard]
+pydantic
+
 # Visualization
 matplotlib
 seaborn
