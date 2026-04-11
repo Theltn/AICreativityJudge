@@ -264,6 +264,14 @@ header.app-header {
   background: var(--accent-green);
 }
 
+.structural-fill.red {
+  background: var(--accent-red);
+}
+
+.text-red {
+  color: var(--accent-red);
+}
+
 .verdict-banner {
   margin-top: auto;
   padding: 1.5rem;
